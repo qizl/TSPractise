@@ -12,7 +12,8 @@
             target="_blank">Vue3文档</a>，<a href="https://www.tslang.cn/docs/home.html" target="_blank">TS文档</a></p>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <style scoped>
 .logo {

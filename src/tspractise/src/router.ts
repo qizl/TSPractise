@@ -24,6 +24,27 @@ const routes = [{
         title: '变量声明',
         describe: ''
     }
+}, {
+    path: '/interfaces',
+    component: () => import('./pages/Interfaces.vue'),
+    meta: {
+        title: '接口',
+        describe: ''
+    }
+}, {
+    path: '/classes',
+    component: () => import('./pages/Classes.vue'),
+    meta: {
+        title: '类',
+        describe: ''
+    }
+}, {
+    path: '/functions',
+    component: () => import('./pages/Functions.vue'),
+    meta: {
+        title: '函数',
+        describe: ''
+    }
 }];
 
 const router = createRouter({
